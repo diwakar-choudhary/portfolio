@@ -108,7 +108,7 @@
             <div class="content">
                <p class="subtitle">HELLO</p>
                <h1 class="title">
-                  I'm <span>Diwakar<br>a</span> Software Developer
+                  I'm <span>Diwakar<br>a</span> <label id="element"></label>
                </h1>
                <p class="description">
                   A passionate Full Stack Software Developer &#128640 having an experience of building Web and Mobile applications
@@ -378,6 +378,19 @@
    <!-- <script src="https://smtpjs.com/v3/smtp.js"></script> -->
    <script src="https://kit.fontawesome.com/cffbb902fb.js" crossorigin="anonymous"></script>
    <script src="js/main.js"></script>
+   <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    // it's library for text typed
+
+    <script>
+    var typed = new Typed("#element", {
+      strings: [ "Web Developer","App Developer","UI/UX Designer", "Graphic Designer","UI/UX Designer","Content Writer"],
+      typeSpeed: 100,
+      // backSpeed: 50,
+      loop: true,
+    });
+</script>
+
+   
 </body>
 
 </html>
