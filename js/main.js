@@ -38,5 +38,26 @@ const showDropdown = (dropdownId) => {
 }
 showDropdown('dropdown')
 
-// about section
+// contact section
 
+// const form = document.querySelector("form");
+
+// function sendEmail(){
+//    Email.send({
+//       Host : "smtp.mailendo.com",
+//       Username : "diwakarkr6207867481@gmail.com",
+//       Password : "925BCB04A8D6A905FD97F3CA4C644FBBF488",
+//       To : 'diwakarkr6207867481@gmail.com',
+//       From : "diwakarkr6207867481@gmail.com",
+//       Subject : "This is the subject",
+//       Body : "And this is the body"
+//   }).then(
+//     message => alert(message)
+//   );
+// }
+
+// form.addEventListener("submit", (e)=>{
+//    e.preventDefault();
+
+//    sendEmail();
+// })
